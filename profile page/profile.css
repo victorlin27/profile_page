@@ -1,0 +1,174 @@
+body, html{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+h1 .head{
+    color: white;
+}
+.list{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.button{
+    background-color: darkturquoise;
+    color: white;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    font-size: larger;
+}
+#usercard{
+    width:500px;
+    height:fit-content;
+    padding: 40px;
+    background: linear-gradient(to bottom, darkturquoise, darkturquoise 25%,transparent 25%,transparent 100%);
+    display: flex;
+    flex-direction: column;
+    margin-left: 15% ;
+    border-style:solid;
+    border-width:3px;
+    border-color:grey;
+    margin-top: 3%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+h1 .user{
+    margin:0;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+.map-marker{
+    display: flex;
+    width: 120px;
+    margin:0 0;
+    padding:0
+}
+.map-marker #marker{
+    height:20px;
+    width: 10px;
+}
+.map-marker #California{
+    margin:0;
+    padding-left:10px;
+}
+#usercircle{
+    height: 80px;
+    width: 80px;
+}
+.profile #gear{
+    height: 20px;
+    width: 20px;
+}
+.description{
+    line-height: 10px;
+}
+#education{
+    width:500px;
+    height:fit-content;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(41, 39, 39), rgb(41, 39, 39) 30%,transparent 30%,transparent 100%);
+    border-style:solid;
+    border-width:3px;
+    border-color:grey;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-right: 0%;
+}
+.title{
+    color: white;
+    margin-top: 3%;
+}
+.p1{
+    margin: 0%;
+}
+.triple{
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+#connection{
+    width: 250px;    
+    height: fit-content;
+    display: inline;
+}
+#row{
+    display: flex;
+}
+.column1{
+    margin-left:13% ;
+}
+.column2{
+    margin-left:9%;
+}
+#connection{
+    width: 250px;
+    height:fit-content;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(41, 39, 39), rgb(41, 39, 39) 50px,transparent 50px,transparent 100%);
+    border-style:solid;
+    border-width:3px;
+    border-color:grey;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 0%;
+}
+#pic{
+    height: 25px;
+    width: 25px;
+}
+#user1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#user2{
+    display: flex;
+    gap: 15px;
+}
+.name{
+    margin-top: 0%;
+}
+
+#yourconnections{
+    width: 250px;
+    height:fit-content;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(41, 39, 39), rgb(41, 39, 39) 18%,transparent 18%,transparent 100%);
+    border-style:solid;
+    border-width:3px;
+    border-color:grey;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 0%;
+}
+.button1{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+}  
+
+.yes, .no{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    cursor: pointer;
+}

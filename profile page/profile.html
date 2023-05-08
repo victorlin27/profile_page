@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div id="header">
+        <div class="list">
+            <h1 class="head">Profile</h1> 
+            <h3 class="head"> Home</h3>
+            <h3 class="head">My Profile</h3>
+            <h3 class="head">Find Connections</h3>
+        </div>
+        <Button class="button">Sign Out</Button>
+    </div>
+    <div id="row">
+        <div class="column1">
+            <div id="usercard">
+                <img id="usercircle" src="icons\user-circle.png" alt="user-circle">
+                <h1 id="mainuser" class="user">Victor Lin</h1>
+                <div class="map-marker">
+                    <img id="marker" src="icons\map-marker.png" alt="map-marker">
+                    <h3 id="California">California</h3>
+                </div>
+                <div class="description">
+                    <h3>Developer| Engineer| Problem Solver</h3>
+                    <h3>Master of Shadows and the internet</h3>
+                </div>
+                <div class="profile">
+                    <img id="gear" src="icons\gear.png" alt="gear">
+                    <button onclick="editprofile()" class="button1">edit profile</button>
+                </div>
+            </div>
+            <div id="education">
+                <h2 class="title">Education</h2>
+                <h2 class="codingdojo">Coding Dojo - Part-Time Flex</h2>
+                <p class="p1">Jan 2022 - Aug 2022</p>
+                <h3 class="triple">Triple black belt in Python, MERN, and C#</h3>
+            </div>
+        </div>
+        <div class="column2">
+            <div id="connection">
+                <h2 id="connection-count" class="title">2 Connection Requests</h2>
+                <div id="user1">
+                    <img id="pic" src="images\todd-s.jpg" alt="todd">
+                    <h2 class="name">Todd E</h2>
+                    <button onclick="accept()" class="yes"><img id="pic" src="icons\accept-circle.png" alt="accept-circle"></button>
+                    <button onclick="decline()" class="no"><img id="pic" src="icons\close-circle.png" alt="close-circle"></button>
+                </div>
+                <div class="phil" id="user1">
+                    <img id="pic" src="images\phil-s.jpg" alt="phil">
+                    <h2 class="name">Phil K</h2>
+                    <button onclick="accepts()" class="yes"><img id="pic" src="icons\accept-circle.png" alt="accept-circle"></button>
+                    <button onclick="declines()" class="no"><img id="pic" src="icons\close-circle.png" alt="close-circle"></button>
+                </div>
+            </div>
+            <div id="yourconnections">
+                <h2 id="connectioncount" class="title"> 67: Your Connections</h2>
+                <div id="user2">
+                    <img id="pic" src="images\adrien-s.jpg" alt="adrien-s">
+                    <h2 class="name">Adrien D</h2>
+                </div>
+                <div id="user2">
+                    <img id="pic" src="images\anne-s.jpg" alt="anne-s">
+                    <h2 class="name">Anne J.</h2>
+                </div>
+                <div id="user2">
+                    <img id="pic" src="images\alayne-s.jpg" alt="alayne-s">
+                    <h2 class="name">Alayne T</h2>
+                </div>
+                <div id="user2">
+                    <img id="pic" src="images\arry-s.jpg" alt="arry">
+                    <h2 class="name">Arry Y</h2>
+                </div>
+                <a href="View More">View More</a>
+            </div>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
